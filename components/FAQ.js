@@ -7,25 +7,79 @@ import { useRef, useState } from "react";
 
 const faqList = [
   {
-    question: "What do I get exactly?",
-    answer: <div className="space-y-2 leading-relaxed">Loreum Ipseum</div>,
+    question: "What is included in the tuition?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Our tuition includes online instructor-led classes on Zoom, access to our online classroom with practice quizzes and flashcards, certification exam prep, and dedicated 1:1 coaching to help you find a full-time job in Germany.
+      </div>
+    ),
   },
   {
-    question: "Can I get a refund?",
+    question: "What payment options are available?",
     answer: (
       <p>
-        Yes! You can request a refund within 7 days of your purchase. Reach out
-        by email.
+        Students can pay tuition upfront or in installments. Our goal is to make getting certified in healthcare as affordable as possible.
       </p>
     ),
   },
   {
-    question: "I have another question",
+    question: "What are the requirements to enroll?",
     answer: (
-      <div className="space-y-2 leading-relaxed">Cool, contact us by email</div>
+      <div className="space-y-2 leading-relaxed">
+        You need a government-issued ID, a high school or GED diploma, and a stable internet connection.
+      </div>
+    ),
+  },
+  {
+    question: "What certifications do you prepare me for?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Our classes prepare you for recognized healthcare certifications in Germany.
+      </div>
+    ),
+  },
+  {
+    question: "Is the program online or in-person?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        The program is 100% online, followed by an in-person unpaid internship. We have partnerships with clinics across Germany.
+      </div>
+    ),
+  },
+  {
+    question: "Do you help graduates find a job?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Yes! We help graduates who complete our program and pass the certification exam find healthcare jobs in their local communities.
+      </div>
+    ),
+  },
+  {
+    question: "How does your money back guarantee work?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        If you don't receive a full-time healthcare job offer within six months of completing our Career Services Program, you're eligible for a full tuition refund (minus the registration fee). Conditions apply.
+      </div>
+    ),
+  },
+  {
+    question: "Do you have a partnership with certification bodies?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        Yes! We are partnered with recognized certification bodies in Germany. Graduates are eligible to take certification exams after completing the program.
+      </div>
+    ),
+  },
+  {
+    question: "Where can I work after completing the program?",
+    answer: (
+      <div className="space-y-2 leading-relaxed">
+        You will be certified to work in healthcare facilities across Germany.
+      </div>
     ),
   },
 ];
+
 
 const Item = ({ item }) => {
   const accordion = useRef(null);

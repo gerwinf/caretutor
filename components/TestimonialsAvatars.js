@@ -8,11 +8,7 @@ const avatars = [
   },
   {
     alt: "User",
-    src: "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
-  },
-  {
-    alt: "User",
-    src: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+    src: "/hero/images/pinay-nurse-group.png",
   },
   {
     alt: "User",
@@ -21,6 +17,10 @@ const avatars = [
   {
     alt: "User",
     src: "https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3376&q=80",
+  },
+  {
+    alt: "User",
+    src: "/hero/images/pinay-nurse.png",
   },
 ];
 
@@ -63,8 +63,7 @@ const TestimonialsAvatars = ({ priority = false }) => {
         </div>
 
         <div className="text-base text-base-content/80">
-          <span className="font-semibold text-base-content">32</span> makers
-          ship faster
+          <span className="font-semibold text-base-content">30+</span> nurses & caregivers certified 
         </div>
       </div>
     </div>

@@ -8,15 +8,24 @@ import ButtonSignin from "./ButtonSignin";
 import logo from "@/app/icon.png";
 import config from "@/config";
 
+// const links = [
+//   {
+//     href: "/#pricing",
+//     label: "Pricing",
+//   },
+//   {
+//     href: "/#testimonials",
+//     label: "Reviews",
+//   },
+//   {
+//     href: "/#faq",
+//     label: "FAQ",
+//   },
+// ];
+
+// update above once more links available in header
+
 const links = [
-  {
-    href: "/#pricing",
-    label: "Pricing",
-  },
-  {
-    href: "/#testimonials",
-    label: "Reviews",
-  },
   {
     href: "/#faq",
     label: "FAQ",

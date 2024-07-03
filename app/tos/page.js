@@ -12,15 +12,14 @@ import config from "@/config";
 // You are an excellent lawyer.
 
 // I need your help to write a simple Terms & Services for my website. Here is some context:
-// - Website: https://shipfa.st
-// - Name: ShipFast
-// - Contact information: marc@shipfa.st
-// - Description: A JavaScript code boilerplate to help entrepreneurs launch their startups faster
-// - Ownership: when buying a package, users can download code to create apps. They own the code but they do not have the right to resell it. They can ask for a full refund within 7 day after the purchase.
+// - Website: https://caretutor.eu
+// - Name: CareTutor
+// - Contact information: gerwin@caretutor.eu
+// - Description: An EdTech for foreign healthcare professionals relocating to the EU
 // - User data collected: name, email and payment information
 // - Non-personal data collection: web cookies
-// - Link to privacy-policy: https://shipfa.st/privacy-policy
-// - Governing Law: France
+// - Link to privacy-policy: https://caretutor.eu/privacy-policy
+// - Governing Law: Germany
 // - Updates to the Terms: users will be updated by email
 
 // Please write a simple Terms & Services for my site. Add the current date. Do not add or explain your reasoning. Answer:
@@ -57,39 +56,51 @@ const TOS = () => {
           className="leading-relaxed whitespace-pre-wrap"
           style={{ fontFamily: "sans-serif" }}
         >
-          {`Last Updated: September 26, 2023
+          {`Last Updated: July 1, 2024
 
-Welcome to ShipFast!
+Welcome to CareTutor. 
 
-These Terms of Service ("Terms") govern your use of the ShipFast website at https://shipfa.st ("Website") and the services provided by ShipFast. By using our Website and services, you agree to these Terms.
+These Terms & Services ("Terms") govern your use of our website located at https://caretutor.eu ("Site"). By accessing or using our Site, you agree to comply with and be bound by these Terms. If you do not agree to these Terms, please do not use our Site.
 
-1. Description of ShipFast
+1. Description of CareTutor
 
-ShipFast is a platform that offers a JavaScript code boilerplate to assist entrepreneurs in launching their startups more efficiently.
+CareTutor is an EdTech platform designed for foreign healthcare professionals relocating to the EU. We provide online training and certification programs to help you transition smoothly into the EU healthcare system.
 
-2. Ownership and Usage Rights
+2. User Data and Privacy
 
-When you purchase a package from ShipFast, you gain the right to download and use the code provided for creating applications. You own the code you create but do not have the right to resell it. We offer a full refund within 7 days of purchase, as specified in our refund policy.
+We collect personal information, including your name, email, and payment information, to process orders and provide our services. We also collect non-personal data such as web cookies to enhance your browsing experience. For more details, please refer to our Privacy Policy at https://caretutor.eu/privacy-policy.
 
-3. User Data and Privacy
+3. User Responsibilities
 
-We collect and store user data, including name, email, and payment information, as necessary to provide our services. For details on how we handle your data, please refer to our Privacy Policy at https://shipfa.st/privacy-policy.
+By using our Site, you agree to:
 
-4. Non-Personal Data Collection
+- Provide accurate and complete information during registration.
+- Keep your account information secure and confidential.
+- Comply with all applicable laws and regulations.
 
-We use web cookies to collect non-personal data for the purpose of improving our services and user experience.
+4. Payment and Refunds
 
-5. Governing Law
+All payments for our services must be made in accordance with the payment terms displayed during the purchase process. Refunds may be issued according to our refund policy, which is outlined in our Privacy Policy.
 
-These Terms are governed by the laws of France.
+5. Intellectual Property
 
-6. Updates to the Terms
+All content on our Site, including text, graphics, logos, and software, is the property of CareTutor or its content suppliers and is protected by intellectual property laws. You may not use, reproduce, or distribute any content without our prior written permission.
 
-We may update these Terms from time to time. Users will be notified of any changes via email.
+6. Limitation of Liability
 
-For any questions or concerns regarding these Terms of Service, please contact us at marc@shipfa.st.
+CareTutor shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your use of our Site or services.
 
-Thank you for using ShipFast!`}
+7. Governing Law
+
+These Terms are governed by the laws of Germany.
+
+8. Updates to the Terms
+
+We may update these Terms from time to time. If we make any changes, we will notify you by email. Your continued use of our Site after such updates constitutes your acceptance of the new Terms.
+
+If you have any questions about these Terms, please contact us at gerwin@caretutor.eu.
+
+Thank you for using CareTutor!`}
         </pre>
       </div>
     </main>
