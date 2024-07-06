@@ -1,7 +1,7 @@
 import Image from "next/image";
 import TestimonialsAvatars from "./TestimonialsAvatars";
-import config from "@/config";
-// import ButtonLead from "@/components/ButtonLead";
+// import config from "@/config";
+import ButtonLead from "@/components/ButtonLead";
 
 const Hero = () => {
   return (
@@ -31,11 +31,11 @@ const Hero = () => {
 
         </p>
 
-        {/* <ButtonLead /> */}
+        <ButtonLead />
 
-        <button className="btn btn-primary btn-wide">
+        {/* <button className="btn btn-primary btn-wide">
           Get your {config.appName}
-        </button>
+        </button> */}
 
         <TestimonialsAvatars priority={true} />
       </div>
