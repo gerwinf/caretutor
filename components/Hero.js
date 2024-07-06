@@ -23,7 +23,7 @@ const Hero = () => {
         </a> */}
 
         <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
-        Relocate to the European Healthcare Sector 
+        Relocate to Europe. Work in Healthcare.
         {/* Your healthcare career in Germany starts now  */}
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
