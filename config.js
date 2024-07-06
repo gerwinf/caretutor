@@ -7,7 +7,7 @@ const config = {
   appDescription:
     "Online training and certification for foreign healthcare professionals relocating to the EU.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
-  domainName: "shipfa.st",
+  domainName: "caretutor.eu",
   crisp: {
     // Crisp website ID. IF YOU DON'T USE CRISP: just remove this => Then add a support email in this config file (mailgun.supportEmail) otherwise customer support won't work.
     id: "",
