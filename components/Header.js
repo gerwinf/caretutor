@@ -10,8 +10,8 @@ import config from "@/config";
 
 // const links = [
 //   {
-//     href: "/#pricing",
-//     label: "Pricing",
+//     href: "/#features",
+//     label: "Features",
 //   },
 //   {
 //     href: "/#testimonials",
@@ -26,6 +26,10 @@ import config from "@/config";
 // update above once more links available in header
 
 const links = [
+  {
+    href: "/#features",
+    label: "Features",
+  },
   {
     href: "/#faq",
     label: "FAQ",

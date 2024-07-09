@@ -54,7 +54,10 @@ const Footer = () => {
                     Support
                   </a>
                 )}
-                <Link href="/#faqs" className="link link-hover">
+                <Link href="/#features" className="link link-hover">
+                  Features
+                </Link> 
+                <Link href="/#faq" className="link link-hover">
                   FAQ
                 </Link>
                 {/* <Link href="/blog" className="link link-hover">
