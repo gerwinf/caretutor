@@ -33,6 +33,9 @@ const links = [
   {
     href: "/#faq",
     label: "FAQ",
+  },{
+    href: "/aitutor",
+    label: "AI Tutor",
   },
 ];
 

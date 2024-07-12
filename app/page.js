@@ -7,6 +7,7 @@ import FeaturesAccordion from "@/components/FeaturesAccordion";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import Chatbot from '@/components/Chatbot';
 
 export default function Home() {
   return (
