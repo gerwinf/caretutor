@@ -7,7 +7,7 @@ import FeaturesAccordion from "@/components/FeaturesAccordion";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
-import Chatbot from '@/components/Chatbot';
+import ChatBubble from '@/components/ChatBubble';
 
 export default function Home() {
   return (
@@ -22,6 +22,7 @@ export default function Home() {
         {/* <Pricing /> */}
         <FAQ />
         <CTA />
+        <ChatBubble />
       </main>
       <Footer />
     </>
