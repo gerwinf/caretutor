@@ -23,11 +23,13 @@ const Hero = () => {
         </a> */}
 
         <h1 className="font-extrabold text-4xl lg:text-6xl tracking-tight md:-mb-4">
-        Relocate to Europe. Work in Healthcare.
+        Fast-track Your nursing <i>Ausbildung</i> in Germany.
         {/* Your healthcare career in Germany starts now  */}
         </h1>
         <p className="text-lg opacity-80 leading-relaxed">
-        Get trained online to become an EU certified nurse or caregiver in months, not years. Gain hands-on experience at our partner clinics and secure a full-time job. 
+        Complete your nursing <i>Ausbildung</i> in half the time. Join online bootcamp followed by hands-on experience at partner clinics in Germany.    
+
+
 
         </p>
 
